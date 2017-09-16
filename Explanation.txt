@@ -1,0 +1,31 @@
+NPAPI, also known as Netscape Plugin Application Programming Interface, 
+is an Application Programming Interface (API) utilized by some web browsers to allow the use of browser plugins. 
+It was created by John Warnock and Allan Padgett at Adobe in 1995 for the purpose of integrating a PDF 
+viewer into Netscape Navigator 2.0. Browsers that have support for plugins written using the NPAPI include:
+  Safari
+  WebOS Isis
+  Konqueror
+  Opera
+  Qupzilla
+  Odyssey Web Browser on MorphOS
+  Mozilla Firefox, but with only partial support in versions after Firefox 30
+  Internet Explorer previous to version 5.5 SP2
+  
+  
+Chrome
+  Chrome no longer supports NPAPI (technology required for Java applets)
+The Java plug-in for web browsers relies on the cross platform 
+plugin architecture NPAPI, which has been supported by all major web browsers 
+for over a decade. Google's Chrome version 45 (scheduled for release in September 2015) 
+drops support for NPAPI, impacting plugins for Silverlight, Java, Facebook Video and other similar NPAPI based plugins.
+
+Java applications are offered through web browsers as either a web 
+start application (which do not interact with the browser once they are launched) or 
+as a Java applet (which might interact with the browser). This change does not affect Web Start applications, 
+it only impacts applets.
+
+If you have problems accessing Java applications using Chrome, 
+Oracle recommends using Internet Explorer (Windows) or Safari (Mac OS X) instead.
+
+Developers and System administrators looking for alternative ways to support users of 
+Chrome should see this blog regarding Launching Web Start applications.
